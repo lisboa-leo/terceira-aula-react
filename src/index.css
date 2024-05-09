@@ -1,0 +1,24 @@
+:root{
+    --verde-destaque: #81FE88;
+    --font: 'Prompt', sans-serif;
+    --verde-pastel: #BFFFC3;
+    --verde-petroleo: #132E35;
+    --grafite: #01080E;
+    --cinza-escuro: #171D1F;
+    --cinza: #3e3e3f;
+    --cinza-medio: #888888;
+    --cinza-claro: #BCBCBC;
+    --offwhite: #E1E1E1;
+    --branco: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--grafite);
+    font-family: var(--font);
+}
